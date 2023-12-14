@@ -285,7 +285,7 @@ p {
     background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702570534/trackrose_fplqrn.jpg");
 }
 footer {
-    height: 150px;
+    height: 155px;
     background-color: #dcdcdc;
     margin: 0;
     display: flex;
@@ -299,7 +299,7 @@ footer div {
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -423,6 +423,11 @@ a {
 
     footer div:first-of-type {
         padding: 26px 20px;
+    }
+
+    footer a { 
+        font-size: 18px
+        font-family: Arial, sans-serif;
     }
 }
 
