@@ -185,6 +185,7 @@ ul {
 
 .grey.pink-colour.two {
     justify-content: end;
+    background-color: #e3beaa;
 }
 
 .grey.yellow-colour {
@@ -307,6 +308,10 @@ footer p {
 
 .footer-pink {
     background-color: #e3beaa;
+}
+
+.footer-yellow {
+    background-color: #dbc698;
 }
 
 u {
