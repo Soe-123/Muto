@@ -78,6 +78,8 @@ h3 {
     font-size: 36px;
     margin-top: 15px;
     margin-bottom: 25px;
+    line-height: 1.1;
+    max-width: 600px;
 }
 
 .element {
@@ -132,6 +134,10 @@ h3 {
     background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702550848/skijumpwhite_gcyhah.jpg");
 }
 
+.pink.grey-colour.two {
+    background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702565703/canoewhite_psednl.jpg");
+}
+
 .yellow.grey-colour {
     background-color: #dcdcdc;
 }
@@ -162,6 +168,15 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+}
+
+.grey.pink-colour {
+    background-color: #dbc698;
+
+}
+
+.grey.pink-colour.yellow {
+    background-color: #dbc698;
 }
 
 .grey.pink-colour.two {
@@ -265,6 +280,39 @@ p {
     height: auto;
 }
 
+.pink.yellow-colour.two {
+    background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702570534/trackrose_fplqrn.jpg");
+}
+footer {
+    height: 150px;
+    background-color: #dcdcdc;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+footer div {
+    width: 50%;
+    padding: 26px 36px;
+}
+
+footer p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.footer-pink {
+    background-color: #e3beaa;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 1px;;
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -360,6 +408,11 @@ a {
 
     h3 {
         font-size: 24px;
+    }
+
+    footer div:last-of-type {
+        width: 50%;
+        padding: 26px 0px;
     }
 }
 
