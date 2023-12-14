@@ -420,6 +420,10 @@ a {
         width: 50%;
         padding: 26px 0px;
     }
+
+    footer div:first-of-type {
+        padding: 26px 20px;
+    }
 }
 
 
