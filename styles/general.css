@@ -300,6 +300,8 @@ a {
         height: auto;
         padding: 12px 20px 15px 20px;
         width: 100%;
+        justify-content: start;
+
     }
 
     .pink {
@@ -313,7 +315,7 @@ a {
         flex-direction: row;
         padding: 15px 20px;
     }
-    
+
     .element {
     height: calc(var(--vh, 1vh) * 100);
     }
@@ -347,6 +349,10 @@ a {
 
     .grey.pink-colour.two {
         justify-content: start;
+    }
+
+    h3 {
+        font-size: 24px;
     }
 }
 
