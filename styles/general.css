@@ -48,6 +48,7 @@ h1 {
     line-height: 0.9;
     max-height: 75vw;
     color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 h2 {
@@ -272,7 +273,12 @@ p {
 }
 
 h1 {
-    font-size: 10vmin;
+    font-size: 12vmin;
+}
+
+h1:first-of-type {
+    margin-top: 2vmin;
+
 }
 
 ul {
@@ -366,12 +372,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     h1 {
         margin: 0;
-        text-transform: uppercase;
-        font-family: 'GT America Extended';
         width: 40vmax;
-        font-size: 9vmax;
-        line-height: 1;
-        letter-spacing: -1vmin;
+        font-size: 5.8vmax;
     }
 }    
 
