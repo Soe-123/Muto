@@ -40,6 +40,45 @@ body {
     overflow-y: scroll;
 }
 
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'GT America Extended';
+    font-size: 8vw;
+    line-height: 0.9;
+    max-height: 75vw;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'GT America Extended';
+    font-size: 36px;
+    margin: 0 0 0 30px;
+    text-align: left;
+    height: 72px;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grey h2 {
+    font-family: 'GT America Extended';
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'GT America Extended';
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
 .element {
     height: 100vh;
     display: flex;
@@ -142,13 +181,7 @@ ul {
     background-color: #e3beaa;
 }
 
-.grey h2 {
-    font-family: 'GT America Extended';
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
+
 
 .grey p {
     font-family: Arial, sans-serif;
@@ -174,15 +207,7 @@ li a:hover {
     font-weight: bold;
 }
 
-h1 {
-    margin: 0;
-    text-transform: uppercase;
-    font-family: 'GT America Extended';
-    font-size: 8vw;
-    line-height: 0.9;
-    max-height: 75vw;
-    color: rgb(0, 0, 0);
-}
+
 
 .line {
     margin-top: 20px;
@@ -219,18 +244,7 @@ p {
     
 }
 
-h2 {
-    text-transform: uppercase;
-    font-family: 'GT America Extended';
-    font-size: 36px;
-    margin: 0 0 0 30px;
-    text-align: left;
-    height: 72px;
-    background-color: #dcdcdc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 .paragraph-link {
     font-family: Arial, sans-serif;
