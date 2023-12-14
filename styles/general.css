@@ -59,7 +59,7 @@ body {
 
 .pink {
     height: 100%;
-    background-image: url("../images/runnersrose_RT.jpg");
+    background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702550872/runnersrose_RT_wylk0g.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 40px 10px 40px;
@@ -70,7 +70,7 @@ body {
 }
 
 .pink.yellow-colour {
-    background-image: url("../images/cycling3yellow.jpg");
+    background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702550883/cycling3yellow_gfcpoy.jpg");
 }
 
 .yellow {
@@ -84,12 +84,12 @@ body {
 }
 
 .pink.grey-colour {
-    background-image: url("../images/swimmer2white.jpg");
+    background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702550835/swimmer2white_qdvjqh.jpg");
     height: auto;
 }
 
 .pink.grey-colour:last-of-type {
-    background-image: url("../images/skijumpwhite.jpg");
+    background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1702550848/skijumpwhite_gcyhah.jpg");
 }
 
 .yellow.grey-colour {
@@ -121,6 +121,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 100vh;
 }
 
 .grey.pink-colour.two {
@@ -130,6 +131,7 @@ ul {
 .grey.yellow-colour {
     background-color: #dbc698;
     min-width: 50vw;
+    min-height: calc(100vh - 152px);
 }
 
 .yellow.pink-colour {
@@ -208,7 +210,8 @@ p {
 
 .section-2 {
     background-color: #dcdcdc;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     
 }
 
@@ -223,6 +226,12 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.paragraph-link {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-transform: none;
 }
 
 .services-link {
@@ -240,9 +249,13 @@ h2 {
 
 @media screen and (max-width: 1000px) {
 
-    .logotype {
-        width: 100px;
-    }
+.logotype {
+    width: 100px;
+}
+
+h1 {
+    font-size: 10vmin;
+}
 
 ul {
     margin-top: 2px;
@@ -276,9 +289,7 @@ a {
         width: 100%;
     }
 
-    h1 {
-        font-size: 16vmin;
-    }
+
 
     .yellow {
         flex-direction: row;
