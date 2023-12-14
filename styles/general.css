@@ -125,6 +125,10 @@ ul {
 }
 
 .grey.pink-colour.two {
+    min-height: calc(100vh - 152px);
+}
+
+.grey.pink-colour.two {
     justify-content: end;
 }
 
