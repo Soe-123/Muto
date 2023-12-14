@@ -299,9 +299,9 @@ footer div {
 }
 
 footer p {
-    font-size: 18px;
+    font-size: 18px !important;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif !important;
 }
 
 
