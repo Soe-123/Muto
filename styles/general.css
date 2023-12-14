@@ -313,6 +313,7 @@ a {
         flex-direction: row;
         padding: 15px 20px;
     }
+    
     .element {
     height: calc(var(--vh, 1vh) * 100);
     }
@@ -342,6 +343,10 @@ a {
     }
     .section-2 .two-panel {
         flex-direction: column-reverse;
+    }
+
+    .grey.pink-colour.two {
+        justify-content: start;
     }
 }
 
